@@ -1,0 +1,74 @@
+ page{
+  overflow: hidden;
+  position: fixed;
+  background-image: url('http://img5.imgtn.bdimg.com/it/u=2765908701,2809018182&fm=26&gp=0.jpg');
+  margin: opx;
+  background-size: 100% 100%;
+}
+.w {
+  color:white;
+}
+
+.b {
+  font-weight: bold;
+}
+
+.l {
+  border: 1rpx solid white;
+}
+
+.center {
+  text-align: center;
+  margin: auto 0;
+}
+
+.hor {
+  display: flex;
+}
+
+.bg {
+  width: 100%;
+  height: 1800rpx;
+}
+
+.temp {
+  font-size: 170rpx;
+}
+
+.container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 1800 rpx;
+  display: block;
+}
+
+.nowWeather {
+  padding: 10px 10px 20px 30px;
+}
+
+.pm25 {
+  padding: 20px 60px 0px 30px;
+}
+
+.weahterDetail {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px 0px 30px 10px;
+}
+
+.forcast {
+  padding: 30px 0px 0px 0px;
+  margin-left: 10rpx;
+  margin-right: 10 rpx;
+  font-size: 40rpx;
+  border-bottom: 1rpx solid rgb(241, 229, 229);
+  color: white;
+  justify-content: space-around;
+} 
+

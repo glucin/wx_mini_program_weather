@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/weather/weather",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/lifeindex/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#a0a0a0",
+    "selectedColor": "#ec5c30",
+    "backgroundColor": "#f2f2f2",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/weather/weather",
+        "text": "天气",
+        "iconPath": "pages/images/weather.png",
+        "selectedIconPath": "pages/images/weather3.png"
+      },
+      {
+        "pagePath": "pages/lifeindex/index",
+        "text": "生活指数"  , 
+        "iconPath": "pages/images/my.png",
+        "selectedIconPath": "pages/images/my3.png"
+      }
+    ]
+  }
+}
+
